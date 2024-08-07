@@ -78,3 +78,6 @@ ggplot(data = approx_long, aes(x = time, y = proportion)) +
   geom_line(aes(color = population))
 ```
 
+The purpose of this project is to plot the effect a novel pathogen has on a population. Given 3 variables susceptible (S), Recovered (R), and Infected(I). They plug in a differential equation and plot its estimate. The graph is showing the proportion of each variable and how they changes over time. It also shows the correlation between each variable across time.
+
+I changed the infected proportion which showed how the graph shift the left. This makes sense as it means the population goes through with the infection/recovery process sooner given a higher amount of infected.
